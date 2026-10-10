@@ -11,6 +11,3 @@ __pycache__/
 
 # macOS files
 .DS_Store
-
-# Generated plot
-thermalization_plot.png
