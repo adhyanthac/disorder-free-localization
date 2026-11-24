@@ -1,0 +1,955 @@
+{
+    "experiment": {
+        "job_id": "dc2p5pdhdvas73bmkekg",
+        "backend": "ibm_kingston",
+        "submitted_at": "2026-11-24T13:36:38.018844+00:00",
+        "num_qubits": 10,
+        "physical_layout": [
+            67,
+            68,
+            69,
+            70,
+            71,
+            72,
+            73,
+            79,
+            93,
+            92
+        ],
+        "measured_qubit": 0,
+        "shots": 512,
+        "periods": [
+            0,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13,
+            14,
+            15,
+            16,
+            17,
+            18,
+            19,
+            20,
+            21,
+            22,
+            23,
+            24,
+            25,
+            26,
+            27,
+            28,
+            29,
+            30,
+            31,
+            32,
+            33,
+            34,
+            35,
+            36,
+            37,
+            38,
+            39,
+            40,
+            41,
+            42,
+            43,
+            44,
+            45,
+            46,
+            47,
+            48,
+            49,
+            50
+        ],
+        "optimization_level": 2,
+        "seed_transpiler": 42,
+        "rx_angle": 0.7853981633974483,
+        "ry_angle": 1.0471975511965976,
+        "interaction_angle": 0.7853981633974483,
+        "circuit_depths": [
+            1,
+            39,
+            73,
+            107,
+            141,
+            175,
+            209,
+            243,
+            277,
+            311,
+            345,
+            379,
+            413,
+            447,
+            481,
+            515,
+            549,
+            583,
+            617,
+            651,
+            685,
+            719,
+            753,
+            787,
+            821,
+            855,
+            889,
+            923,
+            957,
+            991,
+            1025,
+            1059,
+            1093,
+            1127,
+            1161,
+            1195,
+            1229,
+            1263,
+            1297,
+            1331,
+            1365,
+            1399,
+            1433,
+            1467,
+            1501,
+            1535,
+            1569,
+            1603,
+            1637,
+            1671,
+            1705
+        ],
+        "circuit_operations": [
+            1,
+            226,
+            422,
+            618,
+            814,
+            1010,
+            1206,
+            1402,
+            1598,
+            1794,
+            1990,
+            2186,
+            2382,
+            2578,
+            2774,
+            2970,
+            3166,
+            3362,
+            3558,
+            3754,
+            3950,
+            4146,
+            4342,
+            4538,
+            4734,
+            4930,
+            5126,
+            5322,
+            5518,
+            5714,
+            5910,
+            6106,
+            6302,
+            6498,
+            6694,
+            6890,
+            7086,
+            7282,
+            7478,
+            7674,
+            7870,
+            8066,
+            8262,
+            8458,
+            8654,
+            8850,
+            9046,
+            9242,
+            9438,
+            9634,
+            9830
+        ],
+        "cz_counts": [
+            0,
+            36,
+            72,
+            108,
+            144,
+            180,
+            216,
+            252,
+            288,
+            324,
+            360,
+            396,
+            432,
+            468,
+            504,
+            540,
+            576,
+            612,
+            648,
+            684,
+            720,
+            756,
+            792,
+            828,
+            864,
+            900,
+            936,
+            972,
+            1008,
+            1044,
+            1080,
+            1116,
+            1152,
+            1188,
+            1224,
+            1260,
+            1296,
+            1332,
+            1368,
+            1404,
+            1440,
+            1476,
+            1512,
+            1548,
+            1584,
+            1620,
+            1656,
+            1692,
+            1728,
+            1764,
+            1800
+        ]
+    },
+    "results": [
+        {
+            "periods": 0,
+            "counts": {
+                "0": 509,
+                "1": 3
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.98828125,
+            "ideal_expectation_z": 1.0,
+            "standard_error": 0.006745972597484423,
+            "absolute_error": 0.01171875,
+            "circuit_depth": 1,
+            "cz_gates": 0
+        },
+        {
+            "periods": 1,
+            "counts": {
+                "0": 280,
+                "1": 232
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.09375,
+            "ideal_expectation_z": 0.04736717274537674,
+            "standard_error": 0.04399953252370629,
+            "absolute_error": 0.04638282725462326,
+            "circuit_depth": 39,
+            "cz_gates": 36
+        },
+        {
+            "periods": 2,
+            "counts": {
+                "0": 220,
+                "1": 292
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.140625,
+            "ideal_expectation_z": -0.19905027847191445,
+            "standard_error": 0.043755013314882525,
+            "absolute_error": 0.05842527847191445,
+            "circuit_depth": 73,
+            "cz_gates": 72
+        },
+        {
+            "periods": 3,
+            "counts": {
+                "0": 322,
+                "1": 190
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.2578125,
+            "ideal_expectation_z": 0.20811902915341352,
+            "standard_error": 0.04270018833306475,
+            "absolute_error": 0.049693470846586485,
+            "circuit_depth": 107,
+            "cz_gates": 108
+        },
+        {
+            "periods": 4,
+            "counts": {
+                "0": 262,
+                "1": 250
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0234375,
+            "ideal_expectation_z": -0.04149248080459989,
+            "standard_error": 0.0441820338643893,
+            "absolute_error": 0.06492998080459988,
+            "circuit_depth": 141,
+            "cz_gates": 144
+        },
+        {
+            "periods": 5,
+            "counts": {
+                "0": 279,
+                "1": 233
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.08984375,
+            "ideal_expectation_z": 0.03434482836825044,
+            "standard_error": 0.04401544696418417,
+            "absolute_error": 0.05549892163174956,
+            "circuit_depth": 175,
+            "cz_gates": 180
+        },
+        {
+            "periods": 6,
+            "counts": {
+                "0": 279,
+                "1": 233
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.08984375,
+            "ideal_expectation_z": 0.10390038940487525,
+            "standard_error": 0.04401544696418417,
+            "absolute_error": 0.014056639404875254,
+            "circuit_depth": 209,
+            "cz_gates": 216
+        },
+        {
+            "periods": 7,
+            "counts": {
+                "0": 251,
+                "1": 261
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.01953125,
+            "ideal_expectation_z": 0.028053238868620108,
+            "standard_error": 0.04418574365041634,
+            "absolute_error": 0.04758448886862011,
+            "circuit_depth": 243,
+            "cz_gates": 252
+        },
+        {
+            "periods": 8,
+            "counts": {
+                "0": 264,
+                "1": 248
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.03125,
+            "ideal_expectation_z": 0.11593878329284088,
+            "standard_error": 0.04417258936679157,
+            "absolute_error": 0.08468878329284088,
+            "circuit_depth": 277,
+            "cz_gates": 288
+        },
+        {
+            "periods": 9,
+            "counts": {
+                "0": 276,
+                "1": 236
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.078125,
+            "ideal_expectation_z": 0.08958546842265122,
+            "standard_error": 0.044059097483322575,
+            "absolute_error": 0.011460468422651221,
+            "circuit_depth": 311,
+            "cz_gates": 324
+        },
+        {
+            "periods": 10,
+            "counts": {
+                "0": 269,
+                "1": 243
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.05078125,
+            "ideal_expectation_z": 0.04664463903673946,
+            "standard_error": 0.04413715450180811,
+            "absolute_error": 0.00413661096326054,
+            "circuit_depth": 345,
+            "cz_gates": 360
+        },
+        {
+            "periods": 11,
+            "counts": {
+                "0": 254,
+                "1": 258
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.0078125,
+            "ideal_expectation_z": 0.024133794150455738,
+            "standard_error": 0.04419282510442673,
+            "absolute_error": 0.03194629415045574,
+            "circuit_depth": 379,
+            "cz_gates": 396
+        },
+        {
+            "periods": 12,
+            "counts": {
+                "0": 267,
+                "1": 245
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.04296875,
+            "ideal_expectation_z": 0.019494594590231132,
+            "standard_error": 0.04415335682585288,
+            "absolute_error": 0.023474155409768868,
+            "circuit_depth": 413,
+            "cz_gates": 432
+        },
+        {
+            "periods": 13,
+            "counts": {
+                "0": 265,
+                "1": 247
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.03515625,
+            "ideal_expectation_z": 0.07207816674507941,
+            "standard_error": 0.044166854222217326,
+            "absolute_error": 0.036921916745079414,
+            "circuit_depth": 447,
+            "cz_gates": 468
+        },
+        {
+            "periods": 14,
+            "counts": {
+                "0": 249,
+                "1": 263
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.02734375,
+            "ideal_expectation_z": 0.04089644176047154,
+            "standard_error": 0.04417764917017431,
+            "absolute_error": 0.06824019176047154,
+            "circuit_depth": 481,
+            "cz_gates": 504
+        },
+        {
+            "periods": 15,
+            "counts": {
+                "0": 280,
+                "1": 232
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.09375,
+            "ideal_expectation_z": 0.07767144015449035,
+            "standard_error": 0.04399953252370629,
+            "absolute_error": 0.016078559845509655,
+            "circuit_depth": 515,
+            "cz_gates": 540
+        },
+        {
+            "periods": 16,
+            "counts": {
+                "0": 271,
+                "1": 241
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.05859375,
+            "ideal_expectation_z": -0.02109454020126432,
+            "standard_error": 0.04411824426994765,
+            "absolute_error": 0.07968829020126432,
+            "circuit_depth": 549,
+            "cz_gates": 576
+        },
+        {
+            "periods": 17,
+            "counts": {
+                "0": 252,
+                "1": 260
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.015625,
+            "ideal_expectation_z": -0.11305773169313348,
+            "standard_error": 0.04418877869823737,
+            "absolute_error": 0.09743273169313348,
+            "circuit_depth": 583,
+            "cz_gates": 612
+        },
+        {
+            "periods": 18,
+            "counts": {
+                "0": 262,
+                "1": 250
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0234375,
+            "ideal_expectation_z": -0.029926726597564516,
+            "standard_error": 0.0441820338643893,
+            "absolute_error": 0.05336422659756451,
+            "circuit_depth": 617,
+            "cz_gates": 648
+        },
+        {
+            "periods": 19,
+            "counts": {
+                "0": 278,
+                "1": 234
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0859375,
+            "ideal_expectation_z": 0.07076072294536158,
+            "standard_error": 0.04403067880426505,
+            "absolute_error": 0.015176777054638421,
+            "circuit_depth": 651,
+            "cz_gates": 684
+        },
+        {
+            "periods": 20,
+            "counts": {
+                "0": 272,
+                "1": 240
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0625,
+            "ideal_expectation_z": 0.15031509584244357,
+            "standard_error": 0.04410777261967271,
+            "absolute_error": 0.08781509584244357,
+            "circuit_depth": 685,
+            "cz_gates": 720
+        },
+        {
+            "periods": 21,
+            "counts": {
+                "0": 267,
+                "1": 245
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.04296875,
+            "ideal_expectation_z": 0.12605010311776704,
+            "standard_error": 0.04415335682585288,
+            "absolute_error": 0.08308135311776704,
+            "circuit_depth": 719,
+            "cz_gates": 756
+        },
+        {
+            "periods": 22,
+            "counts": {
+                "0": 264,
+                "1": 248
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.03125,
+            "ideal_expectation_z": 0.03477931516440946,
+            "standard_error": 0.04417258936679157,
+            "absolute_error": 0.0035293151644094634,
+            "circuit_depth": 753,
+            "cz_gates": 792
+        },
+        {
+            "periods": 23,
+            "counts": {
+                "0": 257,
+                "1": 255
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.00390625,
+            "ideal_expectation_z": 0.04689787999471375,
+            "standard_error": 0.044193836648084905,
+            "absolute_error": 0.04299162999471375,
+            "circuit_depth": 787,
+            "cz_gates": 828
+        },
+        {
+            "periods": 24,
+            "counts": {
+                "0": 263,
+                "1": 249
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.02734375,
+            "ideal_expectation_z": 0.0655430349761971,
+            "standard_error": 0.04417764917017431,
+            "absolute_error": 0.038199284976197095,
+            "circuit_depth": 821,
+            "cz_gates": 864
+        },
+        {
+            "periods": 25,
+            "counts": {
+                "0": 265,
+                "1": 247
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.03515625,
+            "ideal_expectation_z": 0.006485037545250512,
+            "standard_error": 0.044166854222217326,
+            "absolute_error": 0.02867121245474949,
+            "circuit_depth": 855,
+            "cz_gates": 900
+        },
+        {
+            "periods": 26,
+            "counts": {
+                "0": 263,
+                "1": 249
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.02734375,
+            "ideal_expectation_z": -0.008880403564632346,
+            "standard_error": 0.04417764917017431,
+            "absolute_error": 0.03622415356463235,
+            "circuit_depth": 889,
+            "cz_gates": 936
+        },
+        {
+            "periods": 27,
+            "counts": {
+                "0": 270,
+                "1": 242
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0546875,
+            "ideal_expectation_z": 0.03937826709407376,
+            "standard_error": 0.0441280380802502,
+            "absolute_error": 0.015309232905926243,
+            "circuit_depth": 923,
+            "cz_gates": 972
+        },
+        {
+            "periods": 28,
+            "counts": {
+                "0": 257,
+                "1": 255
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.00390625,
+            "ideal_expectation_z": 0.0026257227236889014,
+            "standard_error": 0.044193836648084905,
+            "absolute_error": 0.0012805272763110986,
+            "circuit_depth": 957,
+            "cz_gates": 1008
+        },
+        {
+            "periods": 29,
+            "counts": {
+                "0": 242,
+                "1": 270
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.0546875,
+            "ideal_expectation_z": -0.005222837471789436,
+            "standard_error": 0.0441280380802502,
+            "absolute_error": 0.049464662528210565,
+            "circuit_depth": 991,
+            "cz_gates": 1044
+        },
+        {
+            "periods": 30,
+            "counts": {
+                "0": 243,
+                "1": 269
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.05078125,
+            "ideal_expectation_z": 0.02209696892351083,
+            "standard_error": 0.04413715450180811,
+            "absolute_error": 0.07287821892351083,
+            "circuit_depth": 1025,
+            "cz_gates": 1080
+        },
+        {
+            "periods": 31,
+            "counts": {
+                "0": 253,
+                "1": 259
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.01171875,
+            "ideal_expectation_z": -0.0029191166674364375,
+            "standard_error": 0.04419113914687548,
+            "absolute_error": 0.008799633332563563,
+            "circuit_depth": 1059,
+            "cz_gates": 1116
+        },
+        {
+            "periods": 32,
+            "counts": {
+                "0": 232,
+                "1": 280
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.09375,
+            "ideal_expectation_z": 0.019853257209702137,
+            "standard_error": 0.04399953252370629,
+            "absolute_error": 0.11360325720970213,
+            "circuit_depth": 1093,
+            "cz_gates": 1152
+        },
+        {
+            "periods": 33,
+            "counts": {
+                "0": 263,
+                "1": 249
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.02734375,
+            "ideal_expectation_z": 0.010986944236583529,
+            "standard_error": 0.04417764917017431,
+            "absolute_error": 0.01635680576341647,
+            "circuit_depth": 1127,
+            "cz_gates": 1188
+        },
+        {
+            "periods": 34,
+            "counts": {
+                "0": 256,
+                "1": 256
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0,
+            "ideal_expectation_z": -0.045296631384472305,
+            "standard_error": 0.04419417382415922,
+            "absolute_error": 0.045296631384472305,
+            "circuit_depth": 1161,
+            "cz_gates": 1224
+        },
+        {
+            "periods": 35,
+            "counts": {
+                "0": 255,
+                "1": 257
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.00390625,
+            "ideal_expectation_z": -0.020871906567745444,
+            "standard_error": 0.044193836648084905,
+            "absolute_error": 0.016965656567745444,
+            "circuit_depth": 1195,
+            "cz_gates": 1260
+        },
+        {
+            "periods": 36,
+            "counts": {
+                "0": 235,
+                "1": 277
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.08203125,
+            "ideal_expectation_z": 0.0102066925713321,
+            "standard_error": 0.04404522875212508,
+            "absolute_error": 0.0922379425713321,
+            "circuit_depth": 1229,
+            "cz_gates": 1296
+        },
+        {
+            "periods": 37,
+            "counts": {
+                "0": 247,
+                "1": 265
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.03515625,
+            "ideal_expectation_z": -0.006186302436374438,
+            "standard_error": 0.044166854222217326,
+            "absolute_error": 0.028969947563625562,
+            "circuit_depth": 1263,
+            "cz_gates": 1332
+        },
+        {
+            "periods": 38,
+            "counts": {
+                "0": 260,
+                "1": 252
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.015625,
+            "ideal_expectation_z": 0.03445520136796579,
+            "standard_error": 0.04418877869823737,
+            "absolute_error": 0.018830201367965788,
+            "circuit_depth": 1297,
+            "cz_gates": 1368
+        },
+        {
+            "periods": 39,
+            "counts": {
+                "0": 275,
+                "1": 237
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.07421875,
+            "ideal_expectation_z": -0.0024043507547808476,
+            "standard_error": 0.04407228564095629,
+            "absolute_error": 0.07662310075478085,
+            "circuit_depth": 1331,
+            "cz_gates": 1404
+        },
+        {
+            "periods": 40,
+            "counts": {
+                "0": 250,
+                "1": 262
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.0234375,
+            "ideal_expectation_z": -0.04112906642636255,
+            "standard_error": 0.0441820338643893,
+            "absolute_error": 0.01769156642636255,
+            "circuit_depth": 1365,
+            "cz_gates": 1440
+        },
+        {
+            "periods": 41,
+            "counts": {
+                "0": 260,
+                "1": 252
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.015625,
+            "ideal_expectation_z": 0.012962337237207943,
+            "standard_error": 0.04418877869823737,
+            "absolute_error": 0.0026626627627920566,
+            "circuit_depth": 1399,
+            "cz_gates": 1476
+        },
+        {
+            "periods": 42,
+            "counts": {
+                "0": 273,
+                "1": 239
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.06640625,
+            "ideal_expectation_z": 0.02101081988667867,
+            "standard_error": 0.04409662264652426,
+            "absolute_error": 0.045395430113321325,
+            "circuit_depth": 1433,
+            "cz_gates": 1512
+        },
+        {
+            "periods": 43,
+            "counts": {
+                "0": 260,
+                "1": 252
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.015625,
+            "ideal_expectation_z": 0.003763868088827057,
+            "standard_error": 0.04418877869823737,
+            "absolute_error": 0.011861131911172943,
+            "circuit_depth": 1467,
+            "cz_gates": 1548
+        },
+        {
+            "periods": 44,
+            "counts": {
+                "0": 251,
+                "1": 261
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.01953125,
+            "ideal_expectation_z": 0.037576651649710704,
+            "standard_error": 0.04418574365041634,
+            "absolute_error": 0.057107901649710704,
+            "circuit_depth": 1501,
+            "cz_gates": 1584
+        },
+        {
+            "periods": 45,
+            "counts": {
+                "0": 247,
+                "1": 265
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.03515625,
+            "ideal_expectation_z": 0.006186491088442457,
+            "standard_error": 0.044166854222217326,
+            "absolute_error": 0.04134274108844246,
+            "circuit_depth": 1535,
+            "cz_gates": 1620
+        },
+        {
+            "periods": 46,
+            "counts": {
+                "0": 266,
+                "1": 246
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0390625,
+            "ideal_expectation_z": -0.006680885664782711,
+            "standard_error": 0.04416044347333064,
+            "absolute_error": 0.04574338566478271,
+            "circuit_depth": 1569,
+            "cz_gates": 1656
+        },
+        {
+            "periods": 47,
+            "counts": {
+                "0": 250,
+                "1": 262
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.0234375,
+            "ideal_expectation_z": 0.0005989156346764722,
+            "standard_error": 0.0441820338643893,
+            "absolute_error": 0.024036415634676473,
+            "circuit_depth": 1603,
+            "cz_gates": 1692
+        },
+        {
+            "periods": 48,
+            "counts": {
+                "0": 262,
+                "1": 250
+            },
+            "shots": 512,
+            "hardware_expectation_z": 0.0234375,
+            "ideal_expectation_z": 0.016559512871021392,
+            "standard_error": 0.0441820338643893,
+            "absolute_error": 0.006877987128978608,
+            "circuit_depth": 1637,
+            "cz_gates": 1728
+        },
+        {
+            "periods": 49,
+            "counts": {
+                "0": 239,
+                "1": 273
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.06640625,
+            "ideal_expectation_z": 0.09921293304107093,
+            "standard_error": 0.04409662264652426,
+            "absolute_error": 0.16561918304107093,
+            "circuit_depth": 1671,
+            "cz_gates": 1764
+        },
+        {
+            "periods": 50,
+            "counts": {
+                "0": 251,
+                "1": 261
+            },
+            "shots": 512,
+            "hardware_expectation_z": -0.01953125,
+            "ideal_expectation_z": 0.05004075495439458,
+            "standard_error": 0.04418574365041634,
+            "absolute_error": 0.06957200495439458,
+            "circuit_depth": 1705,
+            "cz_gates": 1800
+        }
+    ]
+}
