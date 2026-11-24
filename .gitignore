@@ -11,3 +11,6 @@ __pycache__/
 
 # macOS files
 .DS_Store
+
+# IBM Quantum API key file: never commit
+*apikey*.json
